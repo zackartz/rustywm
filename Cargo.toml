@@ -1,0 +1,17 @@
+[package]
+name = "wm"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+drm-fourcc = "2.2"
+
+[dependencies.smithay]
+version = "0.3"
+git = "https://github.com/smithay/smithay.git"
+rev = "b1549d3"
